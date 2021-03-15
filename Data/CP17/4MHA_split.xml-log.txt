@@ -1,0 +1,56 @@
+[12:15:48 19/12]	Opening log Data/CP17/4MHA_split.xml-log.txt at Thu Dec 19 12:15:48 2019
+####### Log opened at Thu Dec 19 12:15:48 2019 #######
+Command line: /home/jibmaird/Projects/TEES-master/preprocess.py -i Data/CP17/4MHA.xml -o Data/CP17/4MHA_split.xml --steps LOAD,SPLIT_NAMES
+[12:15:48 19/12]	Preprocessor steps: ['LOAD', 'SPLIT_NAMES']
+[12:15:48 19/12]	* Preprocessor:PROCESS(ENTER) *
+[12:15:48 19/12]	=== ENTER STEP Preprocessor:PROCESS:LOAD ===
+[12:15:48 19/12]	Running step LOAD with arguments {'corpusName': None, 'output': None, 'dataSetNames': None, 'extensions': None, 'input': 'Data/CP17/4MHA.xml'}
+[12:15:48 19/12]	Processing source as interaction XML
+[12:15:49 19/12]	=== EXIT STEP LOAD time: 0:00:01.354840 ===
+[12:15:49 19/12]	=== ENTER STEP Preprocessor:PROCESS:SPLIT_NAMES ===
+[12:15:49 19/12]	Running step SPLIT_NAMES with arguments {'input': <ElementTree object at 0x7fe584bb3310>, 'parseName': 'McCC', 'removeOld': True, 'output': 'Data/CP17/4MHA_split.xml'}
+[12:15:49 19/12]	Protein Name Splitter
+[12:15:53 19/12]	Splitting names (CP17.d799.s8): 100.00 % (0:0:3.240)
+[12:15:53 19/12]	Tokenization missing from 0 sentences
+[12:15:53 19/12]	Writing output to Data/CP17/4MHA_split.xml
+[12:16:09 19/12]	=== EXIT STEP SPLIT_NAMES: 0:00:19.886376 ===
+[12:16:09 19/12]	* Preprocessor:PROCESS(EXIT) 0:00:21.241512 *
+[12:16:09 19/12]	Stopped logging stdout to Data/CP17/4MHA_split.xml-log.txt
+[15:39:57 19/12]	Opening log Data/CP17/4MHA_split.xml-log.txt at Thu Dec 19 15:39:57 2019
+####### Log opened at Thu Dec 19 15:39:57 2019 #######
+Command line: /home/jibmaird/Projects/TEES-master/preprocess.py -i Data/CP17/4MHA.xml -o Data/CP17/4MHA_split.xml --steps LOAD,SPLIT_NAMES
+[15:39:57 19/12]	Preprocessor steps: ['LOAD', 'SPLIT_NAMES']
+[15:39:57 19/12]	* Preprocessor:PROCESS(ENTER) *
+[15:39:57 19/12]	Removing existing preprocessor output file Data/CP17/4MHA_split.xml
+[15:39:57 19/12]	=== ENTER STEP Preprocessor:PROCESS:LOAD ===
+[15:39:57 19/12]	Running step LOAD with arguments {'corpusName': None, 'output': None, 'dataSetNames': None, 'extensions': None, 'input': 'Data/CP17/4MHA.xml'}
+[15:39:57 19/12]	Processing source as interaction XML
+[15:39:59 19/12]	=== EXIT STEP LOAD time: 0:00:01.296571 ===
+[15:39:59 19/12]	=== ENTER STEP Preprocessor:PROCESS:SPLIT_NAMES ===
+[15:39:59 19/12]	Running step SPLIT_NAMES with arguments {'input': <ElementTree object at 0x7fa9efbcb350>, 'parseName': 'McCC', 'removeOld': True, 'output': 'Data/CP17/4MHA_split.xml'}
+[15:39:59 19/12]	Protein Name Splitter
+[15:40:02 19/12]	Splitting names (CP17.d799.s8): 100.00 % (0:0:3.182)
+[15:40:02 19/12]	Tokenization missing from 0 sentences
+[15:40:02 19/12]	Writing output to Data/CP17/4MHA_split.xml
+[15:40:18 19/12]	=== EXIT STEP SPLIT_NAMES: 0:00:19.176812 ===
+[15:40:18 19/12]	* Preprocessor:PROCESS(EXIT) 0:00:20.480861 *
+[15:40:18 19/12]	Stopped logging stdout to Data/CP17/4MHA_split.xml-log.txt
+[09:15:57 20/12]	Opening log Data/CP17/4MHA_split.xml-log.txt at Fri Dec 20 09:15:57 2019
+####### Log opened at Fri Dec 20 09:15:57 2019 #######
+Command line: /home/jibmaird/Projects/TEES-master/preprocess.py -i Data/CP17/4MHA.xml -o Data/CP17/4MHA_split.xml --steps LOAD,SPLIT_NAMES
+[09:15:57 20/12]	Preprocessor steps: ['LOAD', 'SPLIT_NAMES']
+[09:15:57 20/12]	* Preprocessor:PROCESS(ENTER) *
+[09:15:57 20/12]	Removing existing preprocessor output file Data/CP17/4MHA_split.xml
+[09:15:57 20/12]	=== ENTER STEP Preprocessor:PROCESS:LOAD ===
+[09:15:57 20/12]	Running step LOAD with arguments {'corpusName': None, 'output': None, 'dataSetNames': None, 'extensions': None, 'input': 'Data/CP17/4MHA.xml'}
+[09:15:57 20/12]	Processing source as interaction XML
+[09:15:58 20/12]	=== EXIT STEP LOAD time: 0:00:01.319704 ===
+[09:15:58 20/12]	=== ENTER STEP Preprocessor:PROCESS:SPLIT_NAMES ===
+[09:15:58 20/12]	Running step SPLIT_NAMES with arguments {'input': <ElementTree object at 0x7f0368433310>, 'parseName': 'McCC', 'removeOld': True, 'output': 'Data/CP17/4MHA_split.xml'}
+[09:15:58 20/12]	Protein Name Splitter
+[09:16:02 20/12]	Splitting names (CP17.d799.s8): 100.00 % (0:0:3.296)
+[09:16:02 20/12]	Tokenization missing from 0 sentences
+[09:16:02 20/12]	Writing output to Data/CP17/4MHA_split.xml
+[09:16:18 20/12]	=== EXIT STEP SPLIT_NAMES: 0:00:19.524519 ===
+[09:16:18 20/12]	* Preprocessor:PROCESS(EXIT) 0:00:20.851854 *
+[09:16:18 20/12]	Stopped logging stdout to Data/CP17/4MHA_split.xml-log.txt

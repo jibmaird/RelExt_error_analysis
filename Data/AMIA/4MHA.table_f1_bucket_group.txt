@@ -1,0 +1,5 @@
+Distance	Data/AMIA/4MHA_split.rels F1	Data/AMIA/TEES_split.rels F1
+0-4	0.80	0.82
+5-9	0.45	0.45
+10-14	0.44	0.24
+15-	0.00	0.00

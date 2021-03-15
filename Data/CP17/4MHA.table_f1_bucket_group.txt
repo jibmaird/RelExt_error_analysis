@@ -1,0 +1,5 @@
+Distance	Data/CP17/4MHA_split.rels F1	Data/CP17/TEES_split.rels F1
+0-4	0.36	0.32
+5-9	0.28	0.25
+10-14	0.25	0.21
+15-	0.20	0.14

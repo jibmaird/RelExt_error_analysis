@@ -1,0 +1,5 @@
+Distance	Data/AMIA/1MHA_split.rels Precision	TP	FP	Data/AMIA/TEES_split.rels Precision	TP	FP
+0-4	0.81	66	15	0.78	69	19
+5-9	0.80	12	3	0.75	12	4
+10-14	1.00	1	0	0.40	2	3
+15-	0.00	0	0	0.00	0	1

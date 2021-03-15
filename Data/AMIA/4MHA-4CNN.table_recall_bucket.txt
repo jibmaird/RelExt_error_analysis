@@ -1,0 +1,5 @@
+Distance	Data/AMIA/4MHA-4CNN_split.rels Recall	TP	FN	Data/AMIA/TEES_split.rels Recall	TP	FN
+0-4	0.84	66	13	0.87	69	10
+5-9	0.32	12	25	0.32	12	25
+10-14	0.17	2	10	0.17	2	10
+15-19	0.00	0	2	0.00	0	2

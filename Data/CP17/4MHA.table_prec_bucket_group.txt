@@ -1,0 +1,5 @@
+Distance	Data/CP17/4MHA_split.rels Precision	TP	FP	Data/CP17/TEES_split.rels Precision	TP	FP
+0-4	0.37	225	381	0.36	190	334
+5-9	0.33	310	632	0.32	250	534
+10-14	0.30	194	460	0.28	149	391
+15-	0.25	204	623	0.21	142	529

@@ -1,0 +1,75 @@
+[12:08:49 19/12]	Opening log Data/AMIA/TEES_split.xml-log.txt at Thu Dec 19 12:08:49 2019
+####### Log opened at Thu Dec 19 12:08:49 2019 #######
+Command line: /home/jibmaird/Projects/TEES-master/preprocess.py -i Data/AMIA/TEES.xml -o Data/AMIA/TEES_split.xml --steps LOAD,SPLIT_NAMES
+[12:08:49 19/12]	Preprocessor steps: ['LOAD', 'SPLIT_NAMES']
+[12:08:49 19/12]	* Preprocessor:PROCESS(ENTER) *
+[12:08:49 19/12]	=== ENTER STEP Preprocessor:PROCESS:LOAD ===
+[12:08:49 19/12]	Running step LOAD with arguments {'corpusName': None, 'output': None, 'dataSetNames': None, 'extensions': None, 'input': 'Data/AMIA/TEES.xml'}
+[12:08:49 19/12]	Processing source as interaction XML
+[12:08:50 19/12]	=== EXIT STEP LOAD time: 0:00:00.069498 ===
+[12:08:50 19/12]	=== ENTER STEP Preprocessor:PROCESS:SPLIT_NAMES ===
+[12:08:50 19/12]	Running step SPLIT_NAMES with arguments {'input': <ElementTree object at 0x7f34d45bd310>, 'parseName': 'McCC', 'removeOld': True, 'output': 'Data/AMIA/TEES_split.xml'}
+[12:08:50 19/12]	Protein Name Splitter
+[12:08:50 19/12]	Splitting names (TEES.d44.s7): 100.00 % (0:0:0.187)
+[12:08:50 19/12]	Tokenization missing from 0 sentences
+[12:08:50 19/12]	Writing output to Data/AMIA/TEES_split.xml
+[12:08:51 19/12]	=== EXIT STEP SPLIT_NAMES: 0:00:01.100337 ===
+[12:08:51 19/12]	* Preprocessor:PROCESS(EXIT) 0:00:01.170051 *
+[12:08:51 19/12]	Stopped logging stdout to Data/AMIA/TEES_split.xml-log.txt
+[14:51:27 19/12]	Opening log Data/AMIA/TEES_split.xml-log.txt at Thu Dec 19 14:51:27 2019
+####### Log opened at Thu Dec 19 14:51:27 2019 #######
+Command line: /home/jibmaird/Projects/TEES-master/preprocess.py -i Data/AMIA/TEES.xml -o Data/AMIA/TEES_split.xml --steps LOAD,SPLIT_NAMES
+[14:51:27 19/12]	Preprocessor steps: ['LOAD', 'SPLIT_NAMES']
+[14:51:27 19/12]	* Preprocessor:PROCESS(ENTER) *
+[14:51:27 19/12]	Removing existing preprocessor output file Data/AMIA/TEES_split.xml
+[14:51:27 19/12]	=== ENTER STEP Preprocessor:PROCESS:LOAD ===
+[14:51:27 19/12]	Running step LOAD with arguments {'corpusName': None, 'output': None, 'dataSetNames': None, 'extensions': None, 'input': 'Data/AMIA/TEES.xml'}
+[14:51:27 19/12]	Processing source as interaction XML
+[14:51:27 19/12]	=== EXIT STEP LOAD time: 0:00:00.069441 ===
+[14:51:27 19/12]	=== ENTER STEP Preprocessor:PROCESS:SPLIT_NAMES ===
+[14:51:27 19/12]	Running step SPLIT_NAMES with arguments {'input': <ElementTree object at 0x7f2ff9346350>, 'parseName': 'McCC', 'removeOld': True, 'output': 'Data/AMIA/TEES_split.xml'}
+[14:51:27 19/12]	Protein Name Splitter
+[14:51:27 19/12]	Splitting names (TEES.d44.s7): 100.00 % (0:0:0.187)
+[14:51:27 19/12]	Tokenization missing from 0 sentences
+[14:51:27 19/12]	Writing output to Data/AMIA/TEES_split.xml
+[14:51:28 19/12]	=== EXIT STEP SPLIT_NAMES: 0:00:01.107148 ===
+[14:51:28 19/12]	* Preprocessor:PROCESS(EXIT) 0:00:01.177349 *
+[14:51:28 19/12]	Stopped logging stdout to Data/AMIA/TEES_split.xml-log.txt
+[15:38:23 19/12]	Opening log Data/AMIA/TEES_split.xml-log.txt at Thu Dec 19 15:38:23 2019
+####### Log opened at Thu Dec 19 15:38:23 2019 #######
+Command line: /home/jibmaird/Projects/TEES-master/preprocess.py -i Data/AMIA/TEES.xml -o Data/AMIA/TEES_split.xml --steps LOAD,SPLIT_NAMES
+[15:38:23 19/12]	Preprocessor steps: ['LOAD', 'SPLIT_NAMES']
+[15:38:23 19/12]	* Preprocessor:PROCESS(ENTER) *
+[15:38:23 19/12]	Removing existing preprocessor output file Data/AMIA/TEES_split.xml
+[15:38:23 19/12]	=== ENTER STEP Preprocessor:PROCESS:LOAD ===
+[15:38:23 19/12]	Running step LOAD with arguments {'corpusName': None, 'output': None, 'dataSetNames': None, 'extensions': None, 'input': 'Data/AMIA/TEES.xml'}
+[15:38:23 19/12]	Processing source as interaction XML
+[15:38:23 19/12]	=== EXIT STEP LOAD time: 0:00:00.072022 ===
+[15:38:23 19/12]	=== ENTER STEP Preprocessor:PROCESS:SPLIT_NAMES ===
+[15:38:23 19/12]	Running step SPLIT_NAMES with arguments {'input': <ElementTree object at 0x7f32397b4350>, 'parseName': 'McCC', 'removeOld': True, 'output': 'Data/AMIA/TEES_split.xml'}
+[15:38:23 19/12]	Protein Name Splitter
+[15:38:23 19/12]	Splitting names (TEES.d44.s7): 100.00 % (0:0:0.216)
+[15:38:23 19/12]	Tokenization missing from 0 sentences
+[15:38:23 19/12]	Writing output to Data/AMIA/TEES_split.xml
+[15:38:24 19/12]	=== EXIT STEP SPLIT_NAMES: 0:00:01.121721 ===
+[15:38:24 19/12]	* Preprocessor:PROCESS(EXIT) 0:00:01.194554 *
+[15:38:24 19/12]	Stopped logging stdout to Data/AMIA/TEES_split.xml-log.txt
+[09:14:22 20/12]	Opening log Data/AMIA/TEES_split.xml-log.txt at Fri Dec 20 09:14:22 2019
+####### Log opened at Fri Dec 20 09:14:22 2019 #######
+Command line: /home/jibmaird/Projects/TEES-master/preprocess.py -i Data/AMIA/TEES.xml -o Data/AMIA/TEES_split.xml --steps LOAD,SPLIT_NAMES
+[09:14:22 20/12]	Preprocessor steps: ['LOAD', 'SPLIT_NAMES']
+[09:14:22 20/12]	* Preprocessor:PROCESS(ENTER) *
+[09:14:22 20/12]	Removing existing preprocessor output file Data/AMIA/TEES_split.xml
+[09:14:22 20/12]	=== ENTER STEP Preprocessor:PROCESS:LOAD ===
+[09:14:22 20/12]	Running step LOAD with arguments {'corpusName': None, 'output': None, 'dataSetNames': None, 'extensions': None, 'input': 'Data/AMIA/TEES.xml'}
+[09:14:22 20/12]	Processing source as interaction XML
+[09:14:22 20/12]	=== EXIT STEP LOAD time: 0:00:00.065879 ===
+[09:14:22 20/12]	=== ENTER STEP Preprocessor:PROCESS:SPLIT_NAMES ===
+[09:14:22 20/12]	Running step SPLIT_NAMES with arguments {'input': <ElementTree object at 0x7f4d63bf4310>, 'parseName': 'McCC', 'removeOld': True, 'output': 'Data/AMIA/TEES_split.xml'}
+[09:14:22 20/12]	Protein Name Splitter
+[09:14:22 20/12]	Splitting names (TEES.d44.s7): 100.00 % (0:0:0.176)
+[09:14:22 20/12]	Tokenization missing from 0 sentences
+[09:14:22 20/12]	Writing output to Data/AMIA/TEES_split.xml
+[09:14:23 20/12]	=== EXIT STEP SPLIT_NAMES: 0:00:01.082012 ===
+[09:14:23 20/12]	* Preprocessor:PROCESS(EXIT) 0:00:01.148665 *
+[09:14:23 20/12]	Stopped logging stdout to Data/AMIA/TEES_split.xml-log.txt
